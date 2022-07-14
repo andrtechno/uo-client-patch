@@ -1,126 +1,109 @@
 //1062948
 Begin
-	Name			Samurai2
-	TrueName		"Samurai2"
-	NameId			1078484
-	DescId			1062950
+	Name			Mage
+	TrueName		"Mage"
+	NameId			1095992
+	DescId			1095998
 	Desc			6
 	TopLevel		true
-	Gump			5591
+	Gump			5569
 	Type			Profession
-	Skill			Bushido			30
-	Skill			Swordsmanship		30
-	Skill			Focus		30					
-	Skill			Parrying	30
-	Stat			Str			40
+	Skill			Magery				30
+	Skill			Meditation			30
+	Skill			Alchemy				30
+	Skill			ResistingSpells		30
+	Stat			Str			20
 	Stat			Dex			30
-	Stat			Int			20
+	Stat			Int			40
 End
 
 Begin
-	Name			Ninja
-	TrueName		"Ninja"
-	NameId			1062949
-	DescId			1062951
+	Name			Warroir
+	TrueName		"Warroir"
+	NameId			1095993
+	DescId			1095999
 	Desc			7
-	TopLevel		true
-	Gump			5589
-	Type			Profession
-	Skill			Ninjitsu		30
-	Skill			Hiding			30
-	Skill			Fencing		30					
-	Skill			Stealth		30
-	Stat			Str			40
-	Stat			Dex			30
-	Stat			Int			20
-End
-
-Begin
-	Name			Paladin
-	TrueName		"Paladin"
-	NameId			1061177
-	DescId			1061227
-	Desc			5
 	TopLevel		true
 	Gump			5587
 	Type			Profession
-	Skill			Chivalry		30
-	Skill			Tactics 		30
-	Skill			Focus 		30
-	Skill			Swordsmanship		30					
+	Skill			Swordsmanship		30
+	Skill			Healing			30
+	Skill			Parrying		30					
+	Skill			Tactics		30
+	Stat			Str			40
+	Stat			Dex			30
+	Stat			Int			20
+End
+
+Begin
+	Name			Crafter
+	TrueName		"Crafter"
+	NameId			1095994
+	DescId			1096000
+	Desc			5
+	TopLevel		true
+	Gump			5555
+	Type			Profession
+	Skill			Blacksmith		30
+	Skill			Bowcraft 		30
+	Skill			ArmsLore 		30
+	Skill			Mining		30					
 	Stat			Str			45
 	Stat			Dex			20
 	Stat			Int			25
 End
 
 Begin
-	Name			Necromancer
-	TrueName		"Necromancer"
-	NameId			1061178
-	DescId			1061228
+	Name			Ranger
+	TrueName		"Ranger"
+	NameId			1095995
+	DescId			1096001
 	Desc			4
 	TopLevel		true
-	Gump			5557
+	Gump			5551
 	Type			Profession
-	Skill			Necromancy		30
-	Skill			Spirit Speak	30
-	Skill			Swordsmanship 		30
-	Skill			Meditation 		30
+	Skill			Archery		30
+	Skill			AnimalTaming	30
+	Skill			AnimalLore 		30
+	Skill			Cooking 		30
 	Stat			Str			25
 	Stat			Dex			20
 	Stat			Int			45
 End
 
 Begin
-	Name			Warrior
-	TrueName		"Warrior"
-	NameId			1061180
-	DescId			1061230
+	Name			Thief
+	TrueName		"Thief"
+	NameId			1095996
+	DescId			1096002
 	Desc			1
 	TopLevel		true
-	Gump			5577
+	Gump			5575
 	Type			Profession
-	Skill			Tactics			30
-	Skill			Healing			30
-	Skill			Swordsmanship		30
-	Skill			Anatomy		30
+	Skill			Hiding			30
+	Skill			Stealth			30
+	Skill			DetectHidden		30
+	Skill			Poisoning		30
 	Stat			Str			45
 	Stat			Dex			35
 	Stat			Int			10
 End
 
 Begin
-	Name			Mage
-	TrueName		"Mage"
-	NameId			1061179
-	DescId			1061229
+	Name			Bard
+	TrueName		"Bard"
+	NameId			1095997
+	DescId			1096003
 	Desc			2
 	TopLevel		true
-	Gump			5569
+	Gump			5553
 	Type			Profession
-	Skill			Magery			30
-	Skill			Meditation		30
-	Skill			Evaluate Intelligence	30
-	Skill			Wrestling		30					
+	Skill			Begging			30
+	Skill			Peacemaking		30
+	Skill			Herding	30
+	Skill			Musicianship		30					
 	Stat			Str			25
 	Stat			Dex			20
 	Stat			Int			45
 End
 
-Begin
-	Name			Blacksmith
-	TrueName		"Blacksmith"
-	NameId			1061181
-	DescId			1061231
-	Desc			3
-	TopLevel		true
-	Gump			5555
-	Type			Profession
-	Skill			Blacksmith		30
-	Skill			Tinkering		30
-	Skill			Mining			30
-	Skill			Tailoring		30
-	Stat			Str			60
-	Stat			Dex			15
-	Stat			Int			15
-End
